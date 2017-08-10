@@ -1,0 +1,14 @@
+{
+  "generator-angular-library": {
+    "githubUsername": "labcart",
+    "githubRepoName": "bpm-nutshell",
+    "npmModuleName": "bpm-client-component",
+    "moduleGlobal": "bpmClientComponent",
+    "ngModuleName": "BpmClientComponentModule",
+    "selectorPrefix": "bpm-client",
+    "projectTitle": "bpm client component",
+    "projectDescription": "",
+    "authorName": "Bhuwan Prasad Upadhyay",
+    "packageManager": "npm"
+  }
+}
