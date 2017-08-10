@@ -13,7 +13,7 @@
         <version>1.5.6.RELEASE</version>
     </parent>
     <modules>
-        <module>bpm-service</module>
+        <module>activiti/bpm-service</module>
     </modules>
 
     <properties>
