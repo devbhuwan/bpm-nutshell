@@ -10,7 +10,7 @@ describe('bpm-client-task-panel component', () => {
     });
   });
 
-  it('should display task panel having tasks grid given process intance id', () => {
+  it('should display task panel having tasks grid given process instance id', () => {
     const fixture: ComponentFixture<TaskPanelComponent> = TestBed.createComponent(TaskPanelComponent);
     fixture.detectChanges();
     expect(fixture.nativeElement.innerHTML.trim()).to.equal(
