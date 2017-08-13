@@ -12,8 +12,10 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.6.RELEASE</version>
     </parent>
+
     <modules>
         <module>activiti/bpm-service</module>
+        <module>camunda/camunda-bpm-service</module>
     </modules>
 
     <properties>

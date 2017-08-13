@@ -26,4 +26,3 @@ if (ENV === 'production') {
     core_1.enableProdMode();
 }
 platform_browser_dynamic_1.platformBrowserDynamic().bootstrapModule(demo_module_1.DemoModule);
-//# sourceMappingURL=entry.js.map

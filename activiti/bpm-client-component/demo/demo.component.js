@@ -19,4 +19,3 @@ var DemoComponent = (function () {
     return DemoComponent;
 }());
 exports.DemoComponent = DemoComponent;
-//# sourceMappingURL=demo.component.js.map

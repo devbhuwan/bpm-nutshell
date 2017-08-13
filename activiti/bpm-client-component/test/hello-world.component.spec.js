@@ -16,4 +16,3 @@ describe('bpm-client-hello-world component', function () {
         chai_1.expect(fixture.nativeElement.innerHTML.trim()).to.equal('Hello world from the bpm client component module!');
     });
 });
-//# sourceMappingURL=hello-world.component.spec.js.map

@@ -29,4 +29,3 @@ var BpmClientComponentModule = (function () {
     var BpmClientComponentModule_1;
 }());
 exports.BpmClientComponentModule = BpmClientComponentModule;
-//# sourceMappingURL=bpm-client-component.module.js.map

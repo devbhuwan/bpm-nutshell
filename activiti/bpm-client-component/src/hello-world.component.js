@@ -20,4 +20,3 @@ var HelloWorldComponent = (function () {
     return HelloWorldComponent;
 }());
 exports.HelloWorldComponent = HelloWorldComponent;
-//# sourceMappingURL=hello-world.component.js.map
