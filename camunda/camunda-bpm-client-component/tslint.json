@@ -1,0 +1,9 @@
+{
+  "extends": "tslint-config-mwl",
+  "rules": {
+    "directive-selector": [true, "attribute", "bpm-client", "camelCase"],
+    "component-selector": [true, "element", "bpm-client", "kebab-case"],
+    "pipe-naming": [true, "camelCase", "bpm-client"],
+    "no-inferrable-types": false
+  }
+}
