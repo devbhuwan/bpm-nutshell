@@ -1,4 +1,4 @@
-package bpm.service;
+package camunda.bpm.service;
 
 import org.camunda.bpm.engine.RepositoryService;
 import org.junit.Test;

@@ -4,3 +4,9 @@ spring:
 security:
   basic:
     enabled: false
+
+logging:
+  level:
+    org.camunda: debug
+    org.springframework: info
+

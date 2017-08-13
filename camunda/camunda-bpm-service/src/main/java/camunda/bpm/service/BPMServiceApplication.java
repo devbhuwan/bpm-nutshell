@@ -1,4 +1,4 @@
-package bpm.service;
+package camunda.bpm.service;
 
 import org.camunda.bpm.spring.boot.starter.annotation.EnableProcessApplication;
 import org.springframework.boot.SpringApplication;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {SecurityAutoConfiguration.class})
-@EnableProcessApplication
+//@EnableProcessApplication
 public class BPMServiceApplication extends WebMvcConfigurerAdapter {
 
     public static void main(String[] args) {
