@@ -1,90 +1,28 @@
-# camunda bpm client component
-[![Build Status](https://travis-ci.org/labcart/camunda-bpm-client-component.svg?branch=master)](https://travis-ci.org/labcart/camunda-bpm-client-component)
-[![codecov](https://codecov.io/gh/labcart/camunda-bpm-client-component/branch/master/graph/badge.svg)](https://codecov.io/gh/labcart/camunda-bpm-client-component)
-[![npm version](https://badge.fury.io/js/camunda-bpm-client-component.svg)](http://badge.fury.io/js/camunda-bpm-client-component)
-[![devDependency Status](https://david-dm.org/labcart/camunda-bpm-client-component/dev-status.svg)](https://david-dm.org/labcart/camunda-bpm-client-component?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/labcart/camunda-bpm-client-component.svg)](https://github.com/labcart/camunda-bpm-client-component/issues)
-[![GitHub stars](https://img.shields.io/github/stars/labcart/camunda-bpm-client-component.svg)](https://github.com/labcart/camunda-bpm-client-component/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/labcart/camunda-bpm-client-component/master/LICENSE)
+# CamundaBpmClientComponent
 
-## Demo
-https://labcart.github.io/camunda-bpm-client-component/
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
-## Table of contents
+## Development server
 
-- [About](#about)
-- [Installation](#installation)
-- [Documentation](#documentation)
-- [Development](#development)
-- [License](#license)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## About
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
 
+## Build
 
-## Installation
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-Install through npm:
-```
-npm install --save camunda-bpm-client-component
-```
+## Running unit tests
 
-Then include in your apps module:
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-```typescript
-import { NgModule } from '@angular/core';
-import { CamundaBpmClientComponentModule } from 'camunda-bpm-client-component';
+## Running end-to-end tests
 
-@NgModule({
-  imports: [
-    CamundaBpmClientComponentModule.forRoot()
-  ]
-})
-export class MyModule {}
-```
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
 
-Finally use in one of your apps components:
-```typescript
-import { Component } from '@angular/core';
+## Further help
 
-@Component({
-  template: '<hello-world></hello-world>'
-})
-export class MyComponent {}
-```
-
-You may also find it useful to view the [demo source](https://github.com/labcart/camunda-bpm-client-component/blob/master/demo/demo.component.ts).
-
-### Usage without a module bundler
-```
-<script src="node_modules/camunda-bpm-client-component/bundles/camunda-bpm-client-component.umd.js"></script>
-<script>
-    // everything is exported camundaBpmClientComponent namespace
-</script>
-```
-
-## Documentation
-All documentation is auto-generated from the source via [compodoc](https://compodoc.github.io/compodoc/) and can be viewed here:
-https://labcart.github.io/camunda-bpm-client-component/docs/
-
-## Development
-
-### Prepare your environment
-* Install [Node.js](http://nodejs.org/) and NPM
-* Install local dev dependencies: `npm install` while current directory is this repo
-
-### Development server
-Run `npm start` to start a development server on port 8000 with auto reload + tests.
-
-### Testing
-Run `npm test` to run tests once or `npm run test:watch` to continually run tests.
-
-### Release
-* Bump the version in package.json (once the module hits 1.0 this will become automatic)
-```bash
-npm run release
-```
-
-## License
-
-MIT
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
