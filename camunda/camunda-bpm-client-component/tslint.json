@@ -117,13 +117,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "bpm-client",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "bpm-client",
       "kebab-case"
     ],
     "use-input-property-decorator": true,

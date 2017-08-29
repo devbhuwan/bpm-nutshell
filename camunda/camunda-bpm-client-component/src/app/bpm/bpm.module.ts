@@ -6,8 +6,10 @@ import {StoreModule} from '@ngrx/store';
 import {EffectsModule} from '@ngrx/effects';
 import {BpmService} from './shared/services/bpm.service';
 import {reducers} from './shared/reducers/index';
+import {BpmTaskComponent} from './bpm-task/bpm-task.component';
+import {BpmFormComponent} from './bpm-form/bpm-form.component';
 
-export const COMPONENTS = [BpmPanelComponent];
+export const COMPONENTS = [BpmPanelComponent, BpmTaskComponent, BpmFormComponent];
 
 @NgModule({
   imports: [
