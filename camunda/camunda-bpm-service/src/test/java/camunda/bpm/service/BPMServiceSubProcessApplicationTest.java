@@ -1,5 +1,6 @@
 package camunda.bpm.service;
 
+import camunda.bpm.BPMServiceApplicationTest;
 import org.camunda.bpm.engine.runtime.ProcessInstance;
 import org.camunda.bpm.engine.variable.Variables;
 import org.junit.Test;
